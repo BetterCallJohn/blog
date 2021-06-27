@@ -1,0 +1,41 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+  color: #292929;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-6;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+
+.markdown a {
+  color: #BF3A3D;
+}
+.markdown a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 551.98px) {
+  .markdown p,
+  .markdown ul,
+  .markdown ol,
+  .markdown blockquote {
+    @apply my-6;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+  }
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug;
+}
+
+.markdown h3 {
+  @apply text-2xl mt-8 mb-4 leading-snug;
+}

@@ -1,0 +1,70 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+body {
+    color: #102233
+}
+
+
+.primaryNav {
+    position: absolute;
+    cursor: pointer;
+}
+.primaryNav:before {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: #102233;
+    margin: 0 auto 0 0;
+}
+.primaryNav:after {
+    content: "";
+    display: block;
+    width: 26px;
+    height: 3px;
+    background: #102233;
+    margin: 0 auto 0 0;
+}
+.primaryNav a:first-child {
+    margin-top: .25rem;
+}
+.primaryNav a:last-child {
+    margin-bottom: .25rem;
+}
+.primaryNav a {
+    display: block;
+    color: var(--light);
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-decoration: none;
+    height: 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .16s cubic-bezier(.45,0,.55,1),height .16s cubic-bezier(.45,0,.55,1),margin .16s cubic-bezier(.45,0,.55,1);
+}
+
+.primaryNav.is-active a:first-child {
+    margin-top: .5rem;
+}
+.primaryNav.is-active a:last-child {
+    margin-bottom: .75rem;
+}
+.primaryNav.is-active a {
+    height: 2rem;
+    opacity: 1;
+    pointer-events: auto;
+}
