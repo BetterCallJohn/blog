@@ -1,11 +1,6 @@
 import Container from '../components/container'
-import MoreStories from '../components/more-stories'
-import HeroPost from '../components/hero-post'
-import Intro from '../components/intro'
-import Social from '../components/social'
 import Layout from '../components/layout'
 import Header from '../components/header'
-import LastContent from '../components/last-content'
 import {getAllPosts} from '../lib/api'
 import Head from 'next/head'
 import Post from '../types/post'
@@ -29,13 +24,12 @@ const Index = ({allPosts}: Props) => {
                     <section className="flex-col flex md:w-1/2 m-auto mt-6">
                         <h1 className="text-6xl md:text-7xl font-bold tracking-tighter leading-tight md:leading-none mb-10 text-center md:text-left">Blog</h1>
 
-                        {allPosts.map((podcast) => (
+                        {allPosts.map((post) => (
                             <PostPreview
-                                key={podcast.slug}
-                                title={podcast.title}
-                                date={podcast.date}
-                                slug={podcast.slug}
-                                duration={podcast.duration}
+                                key={post.slug}
+                                title={post.title}
+                                date={post.date}
+                                slug={post.slug}
                             />
                         ))}
                     </section>

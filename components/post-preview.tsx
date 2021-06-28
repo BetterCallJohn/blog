@@ -5,10 +5,9 @@ type Props = {
     title: string
     date: string
     slug: string
-    excerpt: string
 }
 
-const PostPreview = ({title, date, slug, excerpt}: Props) => {
+const PostPreview = ({title, date, slug}: Props) => {
     return (
         <div>
             <div className="mb-5 rounded-md bg-gray-100 px-4 py-3 min-w-full ">
