@@ -34,7 +34,7 @@ const Index = ({allPosts}: Props) => {
                         ))}
                     </section>
                 </Container>
-            </Layout>
+             </Layout>
         </>
     )
 }

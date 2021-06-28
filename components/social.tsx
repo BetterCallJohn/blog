@@ -9,7 +9,7 @@ const Social = () => {
             <div className="">
 
                 <a href="https://github.com/BetterCallJohn" target="_blank">
-                    <FontAwesomeIcon icon={faGithub} size="2x" color="#AFAFAF" className="mr-8 ml-8"/>
+                    <FontAwesomeIcon icon={faGithub} size="2x" color="#AFAFAF" className="mr-8"/>
                 </a>
                 <a href="https://twitter.com/BetterCallJohn_" target="_blank">
                     <FontAwesomeIcon icon={faTwitter} size="2x" color="#AFAFAF" className="mr-8"/>
@@ -21,7 +21,7 @@ const Social = () => {
                     <FontAwesomeIcon icon={faInstagram} size="2x" color="#AFAFAF" className="mr-8"/>
                 </a>
                 <a href="https://soundcloud.com/bettercalljohn" target="_blank">
-                    <FontAwesomeIcon icon={faSoundcloud} size="2x" color="#AFAFAF" className="mr-8"/>
+                    <FontAwesomeIcon icon={faSoundcloud} size="2x" color="#AFAFAF" className=""/>
                 </a>
             </div>
 

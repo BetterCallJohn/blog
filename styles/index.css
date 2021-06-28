@@ -68,3 +68,13 @@ body {
     opacity: 1;
     pointer-events: auto;
 }
+
+.h-home {
+    height: calc(100vh - 200px);
+}
+
+@media (max-width: 551.98px) {
+    .h-home {
+        height: calc(100vh - 100px);
+    }
+}
