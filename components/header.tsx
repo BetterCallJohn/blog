@@ -13,8 +13,12 @@ const Header = () => {
                 <nav className={`primaryNav ${opened ? "is-active" : ""}`} onClick={() => {
                     toggle(!opened)
                 }}>
-                    <a href="/blog">Blog</a>
-                    <a href="/podcast">Podcast</a>
+                    <Link as={`/blog`} href="/blog">
+                        <a>Blog</a>
+                    </Link>
+                    <Link as={`/podcast`} href="/podcast">
+                        <a>Podcast</a>
+                    </Link>
                     {/*<a href="#">Parcours</a>*/}
                 </nav>
             </div>
