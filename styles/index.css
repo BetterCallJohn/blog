@@ -78,3 +78,10 @@ body {
         height: calc(100vh - 100px);
     }
 }
+
+
+@media (max-height: 740px) {
+    .h-home {
+        height: calc(100vh - -70px);
+    }
+}
