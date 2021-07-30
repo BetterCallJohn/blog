@@ -28,6 +28,23 @@ const Meta = () => {
                 name="description"
                 content={`Retours d'expériences sur la vie d'entrepreneur, directeur technique, manager et père de famille.`}
             />
+
+            <script
+            async
+            src={`https://www.googletagmanager.com/gtag/js?id=G-DDBVWW55J7`}
+          />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-DDBVWW55J7', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
+          />
         </Head>
     )
 }
