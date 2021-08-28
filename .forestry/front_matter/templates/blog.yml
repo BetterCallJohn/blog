@@ -11,6 +11,8 @@ fields:
 - type: file
   name: coverImage
   label: coverImage
-- type: datetime
-  name: date
-  label: date
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date
