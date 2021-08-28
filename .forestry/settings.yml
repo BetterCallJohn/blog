@@ -9,11 +9,15 @@ sections:
   label: Blog
   create: all
   match: "**/*"
+  templates:
+  - blog
 - type: directory
   path: _podcasts
   label: Podcasts
   create: all
   match: "**/*"
+  templates:
+  - podcast
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
