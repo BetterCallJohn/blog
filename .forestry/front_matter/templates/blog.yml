@@ -1,0 +1,18 @@
+---
+label: Blog
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: file
+  name: coverImage
+  label: coverImage
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date

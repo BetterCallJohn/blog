@@ -1,0 +1,20 @@
+---
+label: Podcast
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date
+- type: text
+  name: duration
+  label: duration
+- type: textarea
+  name: iframe
+  label: iframe
+pages:
+- _podcasts/S03E05.md
