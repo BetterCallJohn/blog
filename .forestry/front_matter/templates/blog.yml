@@ -16,3 +16,5 @@ fields:
   config:
     required: false
   label: Date
+pages:
+- _posts/methode-shape-up.md
