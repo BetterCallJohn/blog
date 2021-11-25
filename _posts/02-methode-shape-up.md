@@ -2,8 +2,8 @@
 title: Méthode Shape Up
 excerpt: ''
 coverImage: ''
-date: ''
-
+date: '2020-11-25T05:35:07.322Z'
+status: 'draft'
 ---
 Cela fait longtemps que je n'ai pas pris le temps de me poser et prendre le temps d'écrire un article sur un sujet qui me tiens à coeur : l'organisation d'une équipe produit/tech.
 

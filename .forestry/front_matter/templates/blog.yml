@@ -11,6 +11,11 @@ fields:
 - type: file
   name: coverImage
   label: coverImage
+- name: status
+  type: text
+  config:
+    required: true
+  label: Status
 - name: date
   type: text
   config:

@@ -3,6 +3,7 @@ title: 'Créer sa société aux États-unis en quelques clics'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: 'https://miro.medium.com/max/2048/1*4NToqbjXOP9QNYZ8FPesiw.png'
 date: '2020-03-16T05:35:07.322Z'
+status: 'published'
 ---
 
 Afin de pouvoir commercialiser nos produits et solutions, il nous fallait bien évidemment une société. Les différents associés d’Ekoha étant répartis géographiquement en France et aux États-unis, la question suivante s’est naturellement posée : Où est-ce que l’on créé la structure ?
