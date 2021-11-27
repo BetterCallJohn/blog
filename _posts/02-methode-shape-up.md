@@ -16,6 +16,8 @@ C'est suite à ces discussions que j'ai découvert un premier article de l'équi
 
 Les méthodes agiles ont amené beaucoup de bonnes choses mais aussi de très mauvaises. Elles s'appliques certainement extrêmement bien dans des industries SSII & Agency, mais pour une startup/scaleup qui développe son produit/solution en interne, j'ai toujours eu du mal avec des méthodologies type SCRUM et autre. Je ne souhaite pas transformer mon équipe tech en "ticket master".
 
-Deuxième découverte qui s'est avéré être une grande révélation pour moi, [le livre Shape Up](https://basecamp.com/shapeup "Shape Up")
+Deuxième découverte qui s'est avérée être une grande révélation pour moi, [le livre Shape Up](https://basecamp.com/shapeup "Shape Up") écrit par le co-fondateur de BaseCamp (un service SAAS autour de la gestion de projet).
 
-![](https://basecamp.com/assets/books/shapeup-cover-black-2ad6153d1627246e9e93cd19f08fe94ca9d75fc09c17951ac33f7bf955a74e59.svg)![](https://basecamp.com/assets/books/shapeup-cover-black-2ad6153d1627246e9e93cd19f08fe94ca9d75fc09c17951ac33f7bf955a74e59.svg)![](/uploads/shapeup-cover-black-2ad6153d1627246e9e93cd19f08fe94ca9d75fc09c17951ac33f7bf955a74e59.svg)![](/uploads/shapeup-cover-black-2ad6153d1627246e9e93cd19f08fe94ca9d75fc09c17951ac33f7bf955a74e59.svg)
+![](/uploads/shapeup-cover-black-2ad6153d1627246e9e93cd19f08fe94ca9d75fc09c17951ac33f7bf955a74e59.png)
+
+J'ai dévoré chaque page de ce livre, énormément apprécié le fait de découvrir une autre alternative aux méthodes agiles :  la méthodologie Shape Up.
