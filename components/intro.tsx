@@ -8,7 +8,7 @@ const Intro = () => {
                 Directeur Technique · Développeur · Entrepreneur
             </h2>
             <h4 className="text-center mt-4 text-lg text-dgrey md:w-8/12">
-                Je m’appelle Jonathan Martin, passionné par le monde de la tech et des startups.
+                Je m’appelle John Martin, passionné par le monde de la tech et des startups.
                 J'aime apprendre, entreprendre et partager.
             </h4>
         </section>
